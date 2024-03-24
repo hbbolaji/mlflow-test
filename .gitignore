@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+mlflow-user_accessKeys.csv
+mlflow-basics.pem
+
 # C extensions
 *.so
 

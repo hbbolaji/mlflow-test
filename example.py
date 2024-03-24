@@ -71,6 +71,7 @@ if __name__ == "__main__":
         mlflow.log_metric("mae", mae)
 
         remote_tracking_uri = 'https://dagshub.com/hbbolaji/mlflow-test.mlflow'
+        remote_tracking_uri = 'http://ec2-51-21-134-52.eu-north-1.compute.amazonaws.com/'
         mlflow.set_tracking_uri(remote_tracking_uri)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
